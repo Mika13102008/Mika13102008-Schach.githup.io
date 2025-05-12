@@ -6,7 +6,7 @@ function validate ()
    var password = document.login.password.value;
    var valid = false;
    var usernameArray = ["Mika"]
-   var passwordArray = ["Schach"]
+   var passwordArray = ["13102008"]
    for (var i = 0; i < usernameArray.length; i++)
 
 if (user == usernameArray[i])
@@ -19,7 +19,7 @@ if (password == passwordArray [i])
 if(valid)
 {
    alert("Login was successful");
-   window.location = "index.html"
+   window.location = "Haubtseite2_0.html"
    return false ;
 }
 var again = "tries";
